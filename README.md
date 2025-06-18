@@ -1,73 +1,160 @@
-# Welcome to your Lovable project
+# Rosana Hadad Salomón - Landing Page
 
-## Project info
+## 📋 Descripción del Proyecto
 
-**URL**: https://lovable.dev/projects/6bc14566-c475-4b9c-bcbd-5abbfc2d6c2f
+Sitio web profesional de **Rosana Hadad Salomón**, ingeniera, educadora y coach especializada en desarrollo profesional y liderazgo. La página presenta sus servicios de formación, consultoría estratégica y mentorías, con más de 20 años de experiencia en el sector.
 
-## How can I edit this code?
+## 🎯 Características Principales
 
-There are several ways of editing your application.
+- **Diseño Responsivo**: Optimizado para dispositivos móviles, tablets y desktop
+- **Secciones Principales**:
+  - Hero Section con presentación personal
+  - Sección "¿Quién Soy?" con información profesional
+  - Servicios: Formación & Capacitaciones, Consultoría Estratégica, Mentorías & Academia
+  - Entrenamiento de Equipos
+  - Testimonios
+  - Experiencias
+  - Formulario de Contacto
+- **UI Moderna**: Utilizando shadcn/ui y Tailwind CSS
+- **Tipografías Personalizadas**: Brittany, Poppins y Montserrat
+- **Paleta de Colores**: Branding personal con fucsia (#F72E91) y fondos neutros
 
-**Use Lovable**
+## 🛠️ Tecnologías Utilizadas
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/6bc14566-c475-4b9c-bcbd-5abbfc2d6c2f) and start prompting.
+- **Frontend**: React 18 + TypeScript
+- **Build Tool**: Vite
+- **Styling**: Tailwind CSS
+- **UI Components**: shadcn/ui + Radix UI
+- **Routing**: React Router DOM
+- **State Management**: TanStack Query
+- **Icons**: Lucide React
+- **Notifications**: Sonner
 
-Changes made via Lovable will be committed automatically to this repo.
+## 🚀 Instalación y Desarrollo
 
-**Use your preferred IDE**
+### Prerrequisitos
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+- Node.js (versión 18 o superior)
+- npm o bun
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### Pasos de Instalación
 
-Follow these steps:
+```bash
+# 1. Clonar el repositorio
+git clone <URL_DEL_REPOSITORIO>
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+# 2. Navegar al directorio del proyecto
+cd rosana_landingpage
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+# 3. Instalar dependencias
+npm install
+# o
+bun install
 
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# 4. Iniciar el servidor de desarrollo
 npm run dev
+# o
+bun dev
 ```
 
-**Edit a file directly in GitHub**
+El proyecto estará disponible en `http://localhost:5173`
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 📁 Estructura del Proyecto
 
-**Use GitHub Codespaces**
+```
+src/
+├── components/          # Componentes React
+│   ├── ui/             # Componentes de UI (shadcn/ui)
+│   ├── HeroSection.tsx
+│   ├── AboutSection.tsx
+│   ├── ServicesSection.tsx
+│   ├── TeamTrainingSection.tsx
+│   ├── TestimonialsSection.tsx
+│   ├── ContactSection.tsx
+│   ├── ExperiencesSection.tsx
+│   ├── Navbar.tsx
+│   └── Footer.tsx
+├── pages/              # Páginas de la aplicación
+├── hooks/              # Custom hooks
+├── lib/                # Utilidades y configuraciones
+└── App.tsx             # Componente principal
+```
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## 🎨 Personalización
 
-## What technologies are used for this project?
+### Colores del Branding
 
-This project is built with:
+Los colores principales están definidos en `tailwind.config.ts`:
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+- **Fucsia Principal**: `#F72E91`
+- **Fondo**: Colores neutros y blancos
+- **Texto**: Grises oscuros para contraste
 
-## How can I deploy this project?
+### Tipografías
 
-Simply open [Lovable](https://lovable.dev/projects/6bc14566-c475-4b9c-bcbd-5abbfc2d6c2f) and click on Share -> Publish.
+- **Brittany**: Para elementos decorativos y títulos especiales
+- **Poppins**: Para títulos principales
+- **Montserrat**: Para texto de cuerpo
 
-## Can I connect a custom domain to my Lovable project?
+## 📦 Scripts Disponibles
 
-Yes, you can!
+```bash
+# Desarrollo
+npm run dev          # Inicia servidor de desarrollo
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+# Build
+npm run build        # Build para producción
+npm run build:dev    # Build para desarrollo
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+# Linting
+npm run lint         # Ejecuta ESLint
+
+# Preview
+npm run preview      # Previsualiza el build
+```
+
+## 🌐 Despliegue
+
+### Despliegue en Lovable
+
+1. Abre [Lovable](https://lovable.dev)
+2. Navega a tu proyecto
+3. Haz clic en "Share" → "Publish"
+
+### Despliegue Manual
+
+```bash
+# 1. Construir para producción
+npm run build
+
+# 2. Los archivos estarán en la carpeta dist/
+# 3. Subir el contenido de dist/ a tu servidor web
+```
+
+## 🔧 Configuración de Dominio Personalizado
+
+Para conectar un dominio personalizado:
+
+1. Ve a Project > Settings > Domains
+2. Haz clic en "Connect Domain"
+3. Sigue las instrucciones de configuración DNS
+
+## 📱 Responsive Design
+
+El sitio está optimizado para:
+- **Mobile**: 320px - 768px
+- **Tablet**: 768px - 1024px
+- **Desktop**: 1024px+
+
+## 🤝 Contribución
+
+Este es un proyecto personal de Rosana Hadad Salomón. Para consultas sobre el desarrollo, contactar directamente con el equipo de desarrollo.
+
+## 📞 Contacto
+
+- **Rosana Hadad Salomón**: [Información de contacto en el sitio web]
+- **Desarrollo**: [Información del equipo de desarrollo]
+
+---
+
+© 2024 Rosana Hadad Salomón. Todos los derechos reservados.
