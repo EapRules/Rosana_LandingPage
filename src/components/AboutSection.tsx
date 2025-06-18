@@ -43,7 +43,7 @@ export const AboutSection = () => {
               <img 
                 src="/assets/quienSoy.jpg" 
                 alt="Rosana Hadad Salomón trabajando" 
-                className="w-56 sm:w-56 md:w-64 lg:w-72 xl:w-80 h-auto rounded-2xl" 
+                className="w-56 sm:w-56 md:w-64 lg:w-72 xl:w-90 h-auto rounded-2xl" 
               />
             </div>
           </div>
