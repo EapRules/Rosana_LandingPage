@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 export const HeroSection = () => {
   return (
     <section className="relative bg-brand-home overflow-hidden">
-      <div className="flex flex-col lg:flex-row items-center min-h-screen mb-24">
+      <div className="flex flex-col lg:flex-row items-center min-h-screen">
         {/* Imagen de Rosana - Lado izquierdo */}
         <div className="flex-1 order-2 lg:order-1 h-full">
           <div className="relative h-full flex items-end justify-center lg:justify-start">
