@@ -13,7 +13,7 @@ export const AboutSection = () => {
       </div>
       
       {/* Contenido principal con fondo fucsia */}
-      <div className="bg-brand-fucsia text-white pt-12 sm:pt-16 lg:pt-20 pb-16 sm:pb-20 lg:pb-24 relative z-10">
+      <div className="bg-brand-fucsia text-white pt-12 sm:pt-16 lg:pt-16 pb-12 sm:pb-16 lg:pb-20 relative z-10">
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:flex-row items-center gap-6 sm:gap-8 lg:gap-10">
             {/* Texto principal */}
