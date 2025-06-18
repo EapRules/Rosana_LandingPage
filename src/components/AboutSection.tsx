@@ -50,7 +50,7 @@ export const AboutSection = () => {
       </div>
       
       {/* Curva decorativa inferior - sobresale hacia abajo */}
-      <div className="absolute -bottom-14 sm:-bottom-6 lg:-bottom-24 left-0 w-full transform rotate-180">
+      <div className="absolute -bottom-8 sm:-bottom-6 lg:-bottom-24 left-0 w-full transform rotate-180">
         <img 
           src="/assets/guardaAboutMe.png" 
           alt="Curva decorativa inferior" 
