@@ -4,9 +4,9 @@ export const AboutSection = () => {
   return (
     <section className="relative">
       {/* Curva decorativa superior - sobresale hacia arriba */}
-      <div className="">
+      <div className="absolute -top-12 sm:-top-12 lg:-top-16 left-0 w-full z-10">
         <img 
-          src="/assets/guardaAboutMe.png" 
+           src="/assets/guardaAboutMe.png" 
           alt="Curva decorativa superior" 
           className="w-full h-auto"
         />
