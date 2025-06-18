@@ -6,7 +6,7 @@ export const AboutSection = () => {
     <section className="py-8 sm:py-12 lg:py-20 bg-brand-fucsia text-white relative">
        <div className="flex-1 flex justify-center">
             <img 
-              src="/assets/FotoQuienSoy.jpg" 
+              src="/assets/CurvaSeccion.svg" 
               alt="Rosana working" 
               className="w-48 sm:w-56 md:w-64 lg:w-72 xl:w-80 h-auto rounded-2xl shadow-2xl" 
             />
