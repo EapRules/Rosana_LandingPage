@@ -16,7 +16,7 @@ export const HeroSection = () => {
         </div>
 
         {/* Contenido de texto - Lado derecho */}
-        <div className="flex-1 order-1 p-10 lg:order-2 py-6 sm:py-8 lg:py-20 flex flex-col justify-center items-center px-4 lg:pr-8 min-h-[25vh] lg:min-h-[40vh]">
+        <div className="flex-1 order-1 py-20 lg:order-2 py-6 sm:py-8 lg:py-20 flex flex-col justify-center items-center px-4 lg:pr-8 min-h-[25vh] lg:min-h-[40vh]">
           <div className="text-center lg:text-left w-full max-w-lg lg:max-w-none">
             {/* Texto "Soy" en cursiva */}
             <div className="mb-4 sm:mb-6 lg:mb-8">
