@@ -4,16 +4,16 @@ export const AboutSection = () => {
   return (
     <section className="relative">
       {/* Curva decorativa superior - sobresale hacia arriba */}
-      <div className="absolute -top-24 sm:-top-28 lg:-top-32 left-0 w-full z-0">
+      <div className="absolute -top-16 xs:-top-20 sm:-top-24 md:-top-28 lg:-top-32 xl:-top-36 2xl:-top-40 left-0 w-full z-0">
         <img 
           src="/assets/guardaAboutMe.png" 
           alt="Curva decorativa superior" 
-          className="w-full h-auto"
+          className="w-full h-auto block"
         />
       </div>
       
       {/* Contenido principal con fondo fucsia */}
-      <div className="bg-brand-fucsia text-white pt-12 sm:pt-16 lg:pt-16 pb-12 sm:pb-16 lg:pb-20 relative z-10">
+      <div className="bg-brand-fucsia text-white pt-12 xs:pt-14 sm:pt-16 md:pt-18 lg:pt-20 xl:pt-24 pb-12 xs:pb-14 sm:pb-16 md:pb-18 lg:pb-20 xl:pb-24 relative z-10">
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:flex-row items-center gap-6 sm:gap-8 lg:gap-10">
             {/* Texto principal */}
@@ -43,7 +43,7 @@ export const AboutSection = () => {
               <img 
                 src="/assets/quienSoy.jpg" 
                 alt="Rosana Hadad Salomón trabajando" 
-                className="w-56 sm:w-56 md:w-64 lg:w-72 xl:w-90 h-auto rounded-2xl" 
+                className="w-56 sm:w-56 md:w-64 lg:w-72 xl:w-80 2xl:w-96 h-auto rounded-2xl" 
               />
             </div>
           </div>
@@ -51,11 +51,11 @@ export const AboutSection = () => {
       </div>
       
       {/* Curva decorativa inferior - sobresale hacia abajo */}
-      <div className="absolute -bottom-16 sm:-bottom-20 lg:-bottom-24 left-0 w-full transform rotate-180 z-0">
+      <div className="absolute -bottom-12 xs:-bottom-16 sm:-bottom-20 md:-bottom-24 lg:-bottom-28 xl:-bottom-32 2xl:-bottom-36 left-0 w-full transform rotate-180 z-0">
         <img 
           src="/assets/guardaAboutMe.png" 
           alt="Curva decorativa inferior" 
-          className="w-full h-auto"
+          className="w-full h-auto block"
         />
       </div>
     </section>
