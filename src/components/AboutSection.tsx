@@ -2,18 +2,18 @@ import { Heart } from "lucide-react";
 
 export const AboutSection = () => {
   return (
-    <section className="bg-brand-fucsia text-white relative">
-      {/* Curva decorativa superior */}
-      <div className="w-full">
+    <section className="relative">
+      {/* Curva decorativa superior - sobresale hacia arriba */}
+      <div className="absolute -top-8 sm:-top-12 lg:-top-16 left-0 w-full z-10">
         <img 
           src="/assets/guardaAboutMe.png" 
-          alt="Curva decorativa" 
+          alt="Curva decorativa superior" 
           className="w-full h-auto"
         />
       </div>
       
-      {/* Contenido principal */}
-      <div className="py-8 sm:py-12 lg:py-20">
+      {/* Contenido principal con fondo fucsia */}
+      <div className="bg-brand-fucsia text-white pt-16 sm:pt-20 lg:pt-24 pb-16 sm:pb-20 lg:pb-24 relative z-0">
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:flex-row items-center gap-6 sm:gap-8 lg:gap-10">
             {/* Texto principal */}
@@ -50,11 +50,12 @@ export const AboutSection = () => {
           </div>
         </div>
       </div>
-       {/* Curva decorativa inferior */}
-      <div className="w-full">
+      
+      {/* Curva decorativa inferior - sobresale hacia abajo */}
+      <div className="absolute -bottom-8 sm:-bottom-12 lg:-bottom-16 left-0 w-full z-10 transform rotate-180">
         <img 
           src="/assets/guardaAboutMe.png" 
-          alt="Curva decorativa" 
+          alt="Curva decorativa inferior" 
           className="w-full h-auto"
         />
       </div>
