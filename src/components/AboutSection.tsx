@@ -37,9 +37,6 @@ export const AboutSection = () => {
               </div>
             </div>
               </div>
-              
-              
-            
             {/* Imagen */}
             <div className="flex-1 flex justify-center">
               <img 
