@@ -62,7 +62,7 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				},
-				'brand-fucsia': '#F72E91',
+				'brand-fucsia': '#FF0091',
 				'brand-rosa': '#FF0091',
 				'brand-rosa-claro': '#F6D7FF',
 				'brand-celeste': '#00B4D8',
