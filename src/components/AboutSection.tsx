@@ -30,14 +30,15 @@ export const AboutSection = () => {
                 <p className="text-sm sm:text-base lg:text-lg font-montserrat leading-relaxed mb-4 sm:mb-6">
                   <strong>Ingeniera, educadora y coach especializada en desarrollo profesional y liderazgo.</strong> Desde hace más de dos décadas acompaño procesos de transformación en organizaciones, universidades y equipos de trabajo. Mi compromiso es claro: <span className="font-semibold text-brand-fucsia">llevar a cada persona a su mejor versión, con una mirada tecnológica, humana y estratégica.</span>
                 </p>
-              </div>
-              
-              <div className="space-y-3 sm:space-y-4 lg:space-y-6 text-sm sm:text-base lg:text-lg font-montserrat leading-relaxed text-center lg:text-left">
+                <div className="space-y-3 sm:space-y-4 lg:space-y-6 text-sm sm:text-base lg:text-lg font-montserrat leading-relaxed text-center lg:text-left">
                 <p>
                   Hoy dirijo mi propia academia y coordino un equipo de investigación con más de 40 especialistas. Mi propósito es formar líderes con conciencia, visión y herramientas reales para generar impacto en sus entornos.
                 </p>
               </div>
             </div>
+              </div>
+              
+              
             
             {/* Imagen */}
             <div className="flex-1 flex justify-center">
