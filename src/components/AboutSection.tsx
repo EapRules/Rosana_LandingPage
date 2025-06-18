@@ -3,7 +3,7 @@ import { Heart } from "lucide-react";
 
 export const AboutSection = () => {
   return (
-    <section className=" bg-brand-fucsia ">
+    <div className=" bg-brand-fucsia ">
       
             <img 
               src="/assets/CurvaSeccion.svg" 
@@ -40,6 +40,6 @@ export const AboutSection = () => {
         </div>
       </div>
                </div>
-    </section>
+    </div>
   );
 };
