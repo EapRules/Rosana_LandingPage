@@ -9,7 +9,8 @@ export const AboutSection = () => {
               src="/assets/CurvaSeccion.svg" 
               alt="Rosana working" 
             />
-          </div>
+    
+    
       <div className="container mx-auto px-4">
         <div className="flex flex-col lg:flex-row items-center gap-6 sm:gap-8 lg:gap-10">
           <div className="flex-1">
@@ -37,6 +38,7 @@ export const AboutSection = () => {
           </div>
         </div>
       </div>
+               </div>
     </section>
   );
 };
