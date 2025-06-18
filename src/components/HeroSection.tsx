@@ -25,16 +25,11 @@ export const HeroSection = () => {
               </p>
               
               {/* Nombre en fucsia */}
-              <div className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl text-brand-fucsia leading-none  leading-tight uppercase tracking-tight font-poppins font-bold">
-               <div className="font-bold">
-                <div>ROSANA</div>
-                   </div>
-                     <div className="font-normal">
-                <div>HADAD</div>
-                <div>SALOMÓN</div>
-                          </div>
-              </div>
-            </div>
+<div className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl text-brand-fucsia uppercase tracking-tight font-poppins font-bold leading-tight">
+  <div>ROSANA</div>
+  <div className="font-normal leading-tight">HADAD</div>
+  <div className="font-normal leading-tight">SALOMÓN</div>
+</div>
             
             {/* Descripción */}
             <p className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-montserrat text-gray-900 mb-6 sm:mb-8 lg:mb-10 leading-relaxed font-medium text-center lg:text-left px-2 lg:px-0">
