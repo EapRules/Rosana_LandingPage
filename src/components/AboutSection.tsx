@@ -4,6 +4,13 @@ import { Heart } from "lucide-react";
 export const AboutSection = () => {
   return (
     <section className="py-8 sm:py-12 lg:py-20 bg-brand-fucsia text-white relative">
+       <div className="flex-1 flex justify-center">
+            <img 
+              src="/assets/FotoQuienSoy.jpg" 
+              alt="Rosana working" 
+              className="w-48 sm:w-56 md:w-64 lg:w-72 xl:w-80 h-auto rounded-2xl shadow-2xl" 
+            />
+          </div>
       <div className="container mx-auto px-4">
         <div className="flex flex-col lg:flex-row items-center gap-6 sm:gap-8 lg:gap-10">
           <div className="flex-1">
