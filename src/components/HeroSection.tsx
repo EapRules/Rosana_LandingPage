@@ -17,21 +17,21 @@ export const HeroSection = () => {
 
         {/* Contenido de texto - Lado derecho */}
         <div className="flex-1 order-1 lg:order-2 mb-24 py-6 sm:py-8 lg:py-20 flex flex-col justify-center items-center px-4 lg:pr-8 min-h-[50vh] lg:min-h-[80vh] relative">
-          <div className="text-center lg:text-left w-full max-w-lg lg:max-w-none relative">
+          <div className="text-center lg:text-left w-full max-w-lg lg:max-w-none relative leading-snug">
             {/* Texto "Soy" flotante */}
-            <p className="absolute top-2 lg:-left-2 text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-meow-script text-white translate-y-[-20%] z-10 ">
+            <p className="absolute sm:top-6 top-8 left-20 sm:left-12 md:left-6 lg:-left-4 xl:-left-2 text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-meow-script text-white translate-y-[-20%] z-10 ">
               Soy
             </p>
-
             {/* Nombre en fucsia */}
-            <div className="pt-12 text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl text-brand-fucsia uppercase tracking-tight font-poppins font-bold leading-none relative">
-              <div>ROSANA</div>
-              <div className="font-normal">HADAD</div>
-              <div className="font-normal">SALOMÓN</div>
-            </div>
+{/* Nombre en fucsia */}
+<div className="pt-12 text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl text-brand-fucsia uppercase font-poppins font-bold flex flex-col leading-none space-y-[-.5rem] sm:space-y-[-.5rem] md:space-y-[-1rem] lg:space-y-[-1rem] xl:space-y-[-1rem]">
+  <div>ROSANA</div>
+  <div className="font-normal">HADAD</div>
+  <div className="font-normal">SALOMÓN</div>
+</div>
 
             {/* Descripción */}
-            <p className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-montserrat text-gray-900 mt-6 mb-6 sm:mb-8 lg:mb-10 leading-relaxed font-medium text-center lg:text-left px-2 lg:px-0">
+            <p className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-montserrat text-gray-900 mt-2 mb-2 sm:mb-4 lg:mb-6 leading-snug font-medium text-center lg:text-left px-2 lg:px-0">
               Más de 20 años brindando<br />
               formación de alto impacto<br />
               para líderes del futuro
@@ -39,12 +39,12 @@ export const HeroSection = () => {
 
             {/* Botón */}
             <div className="w-full flex justify-center lg:justify-start">
-              <Button 
-                variant="outline" 
-                className="border-2 border-brand-fucsia text-brand-fucsia hover:bg-brand-fucsia hover:text-white bg-transparent font-bold px-6 sm:px-8 lg:px-10 py-4 sm:py-5 text-sm sm:text-base lg:text-lg uppercase tracking-wide rounded-full transition-all duration-300 w-full sm:w-auto max-w-sm sm:max-w-none"
-              >
-                CONOCÉ NUESTROS PROGRAMAS
-              </Button>
+            <Button
+  variant="default"
+  className="border-2 border-brand-fucsia text-brand-fucsia hover:bg-brand-fucsia hover:text-white ..."
+>
+  CONOCÉ NUESTROS PROGRAMAS
+</Button>
             </div>
           </div>
         </div>
