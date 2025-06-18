@@ -30,7 +30,7 @@ export const HeroSection = () => {
                 <div>ROSANA</div>
                    </div>
                      <div className="font-normal">
-            <div className="font-normal leading-tight">HADAD</div>
+            <div className="font-normal leading-none">HADAD</div>
   <div className="font-normal leading-tight">SALOMÓN</div>
                           </div>
               </div>
