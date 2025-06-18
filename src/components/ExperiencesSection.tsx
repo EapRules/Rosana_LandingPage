@@ -1,4 +1,3 @@
-
 import { Button } from "@/components/ui/button";
 
 export const ExperiencesSection = () => {
@@ -10,7 +9,7 @@ export const ExperiencesSection = () => {
             <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-poppins font-bold text-gray-800 mb-2 sm:mb-3 lg:mb-4">
               EXPERIENCIAS<br />QUE DEJAN
             </h2>
-            <h3 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-handelson text-brand-fucsia mb-4 sm:mb-6 lg:mb-8">huella</h3>
+            <h3 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-meow-script text-brand-fucsia mb-4 sm:mb-6 lg:mb-8">huella</h3>
           </div>
           <div className="space-y-4 sm:space-y-6 lg:space-y-8">
             <div className="flex items-start space-x-3 sm:space-x-4 lg:space-x-6">

@@ -16,24 +16,19 @@ export const HeroSection = () => {
         </div>
 
         {/* Contenido de texto - Lado derecho */}
-        <div className="flex-1 order-1 p-32 lg:order-2 py-6 sm:py-8 lg:py-20 flex flex-col justify-center items-center px-4 lg:pr-8 min-h-[25vh] lg:min-h-[40vh]">
+        <div className="flex-1 order-1 lg:order-2 py-6 sm:py-8 lg:py-20 flex flex-col justify-center items-center px-4 lg:pr-8 min-h-[50vh] lg:min-h-[80vh]">
           <div className="text-center lg:text-left w-full max-w-lg lg:max-w-none">
             {/* Texto "Soy" en cursiva */}
             <div className="mb-4 sm:mb-6 lg:mb-8">
-              <p className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-brittany text-white mb-2">
+              <p className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-meow-script text-gray-600 mb-2">
                 Soy
               </p>
               
               {/* Nombre en fucsia */}
-              <div className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl text-brand-fucsia leading-none uppercase tracking-tight font-poppins">
-                            <div className="font-bold">
-
+              <div className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl text-brand-fucsia leading-none uppercase tracking-tight font-poppins font-bold">
                 <div>ROSANA</div>
-                                            </div>
-     <div className="font-normal">
                 <div>HADAD</div>
                 <div>SALOMÓN</div>
-           </div>
               </div>
             </div>
             
@@ -66,7 +61,7 @@ export const HeroSection = () => {
         >
           <defs>
             <pattern id="scallops" x="0" y="0" width="48" height="48" patternUnits="userSpaceOnUse">
-              <circle cx="24" cy="0" r="24" fill="#F72E91"/>
+              <circle cx="24" cy="0" r="24" fill="#FF0091"/>
             </pattern>
           </defs>
           <rect width="100%" height="48" fill="url(#scallops)"/>

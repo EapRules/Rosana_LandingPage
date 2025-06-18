@@ -73,8 +73,7 @@ export default {
 			fontFamily: {
 				'poppins': ['Poppins', 'sans-serif'],
 				'montserrat': ['Montserrat', 'sans-serif'],
-				'handelson': ['Handelson Three', 'cursive'],
-				'brittany': ['Brittany Signature', 'cursive'],
+				'meow-script': ['Meow Script', 'cursive'],
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
