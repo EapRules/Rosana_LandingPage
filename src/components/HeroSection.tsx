@@ -20,7 +20,7 @@ export const HeroSection = () => {
           <div className="text-center lg:text-left w-full max-w-lg lg:max-w-none">
             {/* Texto "Soy" en cursiva */}
             <div className="mb-4 sm:mb-6 lg:mb-8">
-              <p className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-meow-script text-gray-600 mb-2">
+              <p className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-meow-script text-white mb-2">
                 Soy
               </p>
               
