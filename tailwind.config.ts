@@ -68,7 +68,7 @@ export default {
 				'brand-celeste': '#00B4D8',
 				'brand-amarillo': '#F9C82D',
 				'brand-fondo': '#FFFBF3',
-				'brand-home': '#DBDBDD'
+				'brand-home': '##D9D8DB'
 			},
 			fontFamily: {
 				'poppins': ['Poppins', 'sans-serif'],
