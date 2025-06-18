@@ -16,33 +16,29 @@ export const HeroSection = () => {
         </div>
 
         {/* Contenido de texto - Lado derecho */}
-        <div className="flex-1 order-1 lg:order-2 mb-24 py-6 sm:py-8 lg:py-20 flex flex-col justify-center items-center px-4 lg:pr-8 min-h-[50vh] lg:min-h-[80vh] leading-tight">
-          <div className="text-center lg:text-left w-full max-w-lg lg:max-w-none leading-tight">
+        <div className="flex-1 order-1 lg:order-2 mb-24 py-6 sm:py-8 lg:py-20 flex flex-col justify-center items-center px-4 lg:pr-8 min-h-[50vh] lg:min-h-[80vh]">
+          <div className="text-center lg:text-left w-full max-w-lg lg:max-w-none">
             {/* Texto "Soy" en cursiva */}
-            <div className="mb-4 sm:mb-6 lg:mb-8">
-              <p className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-meow-script text-white mb-2 ">
+            <div className="mb-2 sm:mb-4 lg:mb-6">
+              <p className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-meow-script text-white">
                 Soy
               </p>
-              
-              {/* Nombre en fucsia */}
-              <div className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl text-brand-fucsia leading-none  leading-tight uppercase tracking-tight font-poppins font-bold">
-               <div className="font-bold">
-                <div>ROSANA</div>
-                   </div>
-                     <div className="font-normal">
-            <div className="font-normal leading-none">HADAD</div>
-  <div className="font-normal leading-none">SALOMÓN</div>
-                          </div>
-              </div>
             </div>
-            
+
+            {/* Nombre en fucsia */}
+            <div className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl text-brand-fucsia uppercase tracking-tight font-poppins font-bold leading-none">
+              <div>ROSANA</div>
+              <div className="font-normal">HADAD</div>
+              <div className="font-normal">SALOMÓN</div>
+            </div>
+
             {/* Descripción */}
-            <p className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-montserrat text-gray-900 mb-6 sm:mb-8 lg:mb-10 leading-relaxed font-medium text-center lg:text-left px-2 lg:px-0">
+            <p className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-montserrat text-gray-900 mt-6 mb-6 sm:mb-8 lg:mb-10 leading-relaxed font-medium text-center lg:text-left px-2 lg:px-0">
               Más de 20 años brindando<br />
               formación de alto impacto<br />
               para líderes del futuro
             </p>
-            
+
             {/* Botón */}
             <div className="w-full flex justify-center lg:justify-start">
               <Button 
