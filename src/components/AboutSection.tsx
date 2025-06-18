@@ -4,7 +4,7 @@ import { Heart } from "lucide-react";
 export const AboutSection = () => {
   return (
     <section className="py-8 sm:py-12 lg:py-20 bg-brand-fucsia text-white relative">
-       <div className="flex-1 flex justify-center">
+       <div className="">
             <img 
               src="/assets/CurvaSeccion.svg" 
               alt="Rosana working" 
