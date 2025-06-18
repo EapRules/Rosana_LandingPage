@@ -6,7 +6,7 @@ export const AboutSection = () => {
       {/* Curva decorativa superior */}
       <div className="w-full">
         <img 
-          src="/assets/CurvaSeccion.svg" 
+          src="/assets/guardaAboutMe.svg" 
           alt="Curva decorativa" 
           className="w-full h-auto"
         />
