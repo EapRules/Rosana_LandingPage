@@ -19,7 +19,7 @@ export const HeroSection = () => {
         <div className="flex-1 order-1 lg:order-2 mb-24 py-6 sm:py-8 lg:py-20 flex flex-col justify-center items-center px-4 lg:pr-8 min-h-[50vh] lg:min-h-[80vh] relative">
           <div className="text-center lg:text-left w-full max-w-lg lg:max-w-none relative">
             {/* Texto "Soy" flotante */}
-            <p className="absolute top-0  lg:left-10 text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-meow-script text-white translate-y-[-20%] z-10 ">
+            <p className="absolute top-0  lg:.eft-10 text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-meow-script text-white translate-y-[-20%] z-10 ">
               Soy
             </p>
 
