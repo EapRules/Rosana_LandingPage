@@ -22,7 +22,7 @@ export const AboutSection = () => {
                 <div className="w-8 h-8 sm:w-10 sm:h-10 lg:w-12 lg:h-12 bg-white rounded-full flex items-center justify-center mr-2 sm:mr-3 lg:mr-4">
                   <Heart className="w-4 h-4 sm:w-5 sm:h-5 lg:w-6 lg:h-6 text-brand-fucsia" />
                 </div>
-                <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-poppins font-bold">¿QUIÉN SOY?</h2>
+                <h2 className="text-xl sm:text-3xl md:text-4xl lg:text-6xl font-poppins font-bold">¿QUIÉN SOY?</h2>
               </div>
               
               {/* Contenedor de texto con bordes específicos */}
