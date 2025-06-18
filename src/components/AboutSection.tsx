@@ -3,13 +3,13 @@ import { Heart } from "lucide-react";
 
 export const AboutSection = () => {
   return (
-    <section className="py-8 sm:py-12 lg:py-20 bg-brand-fucsia text-white relative">
-       <div className="">
+    <section className=" bg-brand-fucsia relative">
+      
             <img 
               src="/assets/CurvaSeccion.svg" 
               alt="Rosana working" 
             />
-    
+     <div className="py-8 sm:py-12 lg:py-20  text-white  ">
     
       <div className="container mx-auto px-4">
         <div className="flex flex-col lg:flex-row items-center gap-6 sm:gap-8 lg:gap-10">
