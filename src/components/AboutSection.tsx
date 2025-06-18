@@ -50,6 +50,14 @@ export const AboutSection = () => {
           </div>
         </div>
       </div>
+       {/* Curva decorativa inferior */}
+      <div className="w-full">
+        <img 
+          src="/assets/guardaAboutMe.png" 
+          alt="Curva decorativa" 
+          className="w-full h-auto"
+        />
+      </div>
     </section>
   );
 };
