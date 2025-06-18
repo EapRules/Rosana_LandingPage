@@ -8,7 +8,7 @@ export const AboutSection = () => {
             <img 
               src="/assets/CurvaSeccion.svg" 
               alt="Rosana working" 
-              className="mt-0 b-0" 
+              className="mt-0 bt-0" 
             />
      <div className="py-8 sm:py-12 lg:py-20  text-white  relative">
     
