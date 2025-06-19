@@ -150,3 +150,8 @@
   background-repeat: repeat-x;
   z-index: 10;
 }
+
+/* Elimina el highlight amarillo en todos los elementos en mobile */
+* {
+  -webkit-tap-highlight-color: transparent;
+}

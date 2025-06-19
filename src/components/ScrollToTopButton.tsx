@@ -29,7 +29,7 @@ export const ScrollToTopButton = () => {
             onClick={scrollToTop}
             variant="outline"
             size="lg"
-            className="border-2 border-brand-fucsia text-brand-fucsia hover:bg-brand-fucsia hover:text-white px-6 lg:px-8 py-2 lg:py-3 rounded-full text-sm sm:text-base font-poppins font-semibold"
+            className="border-2 border-brand-fucsia text-brand-fucsia hover:bg-brand-fucsia hover:text-white bg-white px-6 lg:px-8 py-2 lg:py-3 rounded-full text-sm sm:text-base font-poppins font-semibold shadow-md"
             aria-label="Volver arriba"
           >
             <ChevronUp className="w-6 h-6 mr-2" />
