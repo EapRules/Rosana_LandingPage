@@ -115,7 +115,6 @@ npm run preview      # Previsualiza el build
 
 ## 🌐 Despliegue
 
-
 ```bash
 # 1. Construir para producción
 npm run build
@@ -123,14 +122,6 @@ npm run build
 # 2. Los archivos estarán en la carpeta dist/
 # 3. Subir el contenido de dist/ a tu servidor web
 ```
-
-## 🔧 Configuración de Dominio Personalizado
-
-Para conectar un dominio personalizado:
-
-1. Ve a Project > Settings > Domains
-2. Haz clic en "Connect Domain"
-3. Sigue las instrucciones de configuración DNS
 
 ## 📱 Responsive Design
 
@@ -141,7 +132,7 @@ El sitio está optimizado para:
 
 ## 🤝 Contribución
 
-Este es un proyecto personal de Rosana Hadad Salomón. Para consultas sobre el desarrollo, contactar directamente con el equipo de desarrollo.
+Este es un proyecto personal de Rosana Hadad Salomón. Para consultas sobre el desarrollo, contactar directamente con el equipo de desarrollo de Nerds.com.ar
 
 ## 📞 Contacto
 
