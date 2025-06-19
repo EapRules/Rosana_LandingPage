@@ -115,13 +115,6 @@ npm run preview      # Previsualiza el build
 
 ## 🌐 Despliegue
 
-### Despliegue en Lovable
-
-1. Abre [Lovable](https://lovable.dev)
-2. Navega a tu proyecto
-3. Haz clic en "Share" → "Publish"
-
-### Despliegue Manual
 
 ```bash
 # 1. Construir para producción
