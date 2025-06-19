@@ -21,13 +21,13 @@ export const AboutSection = () => {
                 <div className="w-8 h-8 sm:w-10 sm:h-10 lg:w-12 lg:h-12 bg-white rounded-full flex items-center justify-center mr-2 sm:mr-3 lg:mr-4">
                   <Heart className="w-4 h-4 sm:w-5 sm:h-5 lg:w-6 lg:h-6 text-brand-fucsia" />
                 </div>
-                <h2 className="text-xl sm:text-3xl md:text-4xl lg:text-6xl font-poppins font-bold">
+                <h2 className="text-xl sm:text-3xl md:text-4xl lg:text-6xl font-poppins font-bold ">
                   ¿QUIÉN SOY?
                 </h2>
               </div>
 
-              <div className="relative overflow-hidden rounded-[2rem] [clip-path:polygon(0%_0%,90%_0%,100%_15%,100%_100%,10%_100%,0%_85%)] bg-white p-8">
-                <div className="bg-white text-gray-900 p-6 sm:p-8 lg:p-10 mb-6 sm:mb-8 lg:mb-10 rounded-[50px] font-poppins text-[1rem] sm:text-[1.125rem] lg:text-[1.25rem] leading-[1.6] text-left space-y-6 shadow-none">
+              <div className="relative overflow-hidden rounded-[2rem] clip-about bg-white ">
+                <div className="bg-white text-gray-900 p-6 sm:p-8 lg:p-10 rounded-[50px] font-poppins text-[1rem] sm:text-[1.125rem] lg:text-[1.25rem] leading-[1.6] text-left space-y-6 shadow-none">
                   <p>
                     <strong>
                       Ingeniera, educadora y coach especializada en desarrollo
