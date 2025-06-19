@@ -4,7 +4,7 @@ export const TeamTrainingSection = () => {
       {/* Fondo con overlay */}
       <div
         className="absolute inset-0 bg-cover bg-center"
-        style={{ backgroundImage: "url('/assets/FondoSecciónEmpresas.svg')" }}
+        style={{ backgroundImage: "url('/assets/FondoSeccionEmpresas.svg')" }}
       >
         <div className="absolute inset-0 bg-black/50"></div>
       </div>
